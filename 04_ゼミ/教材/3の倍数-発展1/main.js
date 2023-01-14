@@ -13,3 +13,4 @@ const fizzBuzzFunction = function (number) {
     }
   }
 }
+fizzBuzzFunction(24)
