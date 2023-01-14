@@ -1,0 +1,22 @@
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: black;
+}
+
+.rounded {
+  border-radius: 75px;
+}
+
+.transition {
+  transition: all 2s;
+}
+
+.big {
+  height: 0px;
+  width: 0px;
+  border-bottom: 150px solid #43a047; /* 高さ */
+  border-right: 86.6px solid transparent; /* 左辺の長さ */
+  border-left: 86.6px solid transparent; /* 右辺の長さ */
+  background-color: white;
+}
