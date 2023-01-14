@@ -24,6 +24,6 @@ inputDate.oninput = sayHello
 
 //キーが押されたときの関数
 const Key = function (e) {
-  console.log(e.Kye)
+  console.log(e.Key)
 }
 inputText.onkeydown = Key
