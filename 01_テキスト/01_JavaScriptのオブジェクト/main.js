@@ -11,10 +11,20 @@ const hikakin = {
     console.log("ブンブンハロー YouTube")
   },
 }
-
+console.dir(document)
+console.dir(window)
 // 練習問題
 // hikakin オブジェクトに入っている sayHello メソッドを実行してください。
-
+hikakin.sayHello()
 // [やってみよう]
 // hikakin オブジェクト を真似して自分のプロフィールをオブジェクトで作ってください。
 // オブジェクトにはたくさんのプロパティを追加してください。
+const miyuu = {
+  name: "みゆう",
+  age: 22,
+  hobbies: ["温泉", "ドライブ", "ジム"],
+  address: {
+    country: "日本",
+    city: "福岡",
+  },
+}
