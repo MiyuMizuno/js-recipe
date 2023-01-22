@@ -14,7 +14,7 @@
 
 .big {
   height: 0px;
-  width: 0px;
+  width: 50px;
   border-bottom: 150px solid #43a047; /* 高さ */
   border-right: 86.6px solid transparent; /* 左辺の長さ */
   border-left: 86.6px solid transparent; /* 右辺の長さ */

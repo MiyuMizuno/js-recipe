@@ -9,13 +9,14 @@ const button6 = document.getElementById("clear")
 const number = document.getElementById("input-text")
 //displayに表示する数値
 let count = 0
+//入力された数値を格納する変数
 let inputNumber = 0
 
 number.oninput = function (e) {
   console.log(e.target.value)
   inputNumber = number(e.target.value)
 }
-button1.onclick = function (e) {
+button1.onclick = function () {
   // count = number
   count = inputNumber + count
   text.textContent = count

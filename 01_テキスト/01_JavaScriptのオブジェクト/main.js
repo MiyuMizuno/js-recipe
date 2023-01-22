@@ -28,3 +28,4 @@ const miyuu = {
     city: "福岡",
   },
 }
+console.log(miyuu)

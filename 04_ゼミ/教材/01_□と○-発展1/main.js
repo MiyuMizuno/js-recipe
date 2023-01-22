@@ -9,5 +9,5 @@ figure.onclick = function () {
 
 text.oninput = function () {
   console.log("入力されました")
-  figure.classList.toggle("small")
+  figure.classList.add("small")
 }

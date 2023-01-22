@@ -4,16 +4,18 @@
 
 //要素の宣言
 
-const button1 = document.getElementById("button1")
-const button2 = document.getElementById("button2")
-const button3 = document.getElementById("button3")
+const pythonButton = document.getElementById("button1")
+const swiftButton = document.getElementById("button2")
+const javaButton = document.getElementById("button3")
 const fbtext = document.getElementById("fbtext")
 
-const button = [button1, button2, button3]
+//押されたボタンとテキストのindex番号を対応させる
+const button = [pythonButton, swiftButton, javaButton]
 const fbTexts = ["外れ！", "外れ！", "正解！！"]
-//fbテキストを配列
 
-//クリックされたらFB変える
+//ボタンを押したときの処理:クリックされたらFB変える
+//ボタン1を押したらテキスト1を表示。ボタン2だとテキスト2
+//つまり、n番目のボタンが押されたとき、n番目のテキストを表示
 for (let n = 0; n < button.length; n++) {
   button[n].onclick = function () {
     fbtext.textContent = fbTexts[n]
