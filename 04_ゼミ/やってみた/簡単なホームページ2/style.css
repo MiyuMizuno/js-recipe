@@ -1,0 +1,110 @@
+/*サイト全体の設定*/
+@charset "UTF-8";
+
+body {
+  font-family: "Hiragino Kaku Gothic", "Mriryo", "sans-serif";
+  font-size: 15px;
+  border-top: 10px solid #79a1b1;
+}
+
+/*ヘッダー全体*/
+header {
+  width: cover;
+  height: 150px;
+  margin: 0 auto;
+  background-color: #eee;
+}
+/*ロゴ*/
+
+.logo {
+  text-align: center;
+}
+.logo img {
+  display: inline-block;
+  width: 5%;
+  padding-bottom: 0px;
+}
+.logo p {
+  font-size: 10%;
+}
+.logo ul {
+  list-style: none;
+  display: flex;
+}
+.logo ul li {
+  text-align: center;
+  width: 200px;
+  border-left: 1px solid #333;
+}
+.logo ul li:last-child {
+  border-right: 1px solid #333;
+}
+/*全てのリンクに適用*/
+.logo a {
+  text-decoration: none;
+  color: #333;
+}
+main {
+  width: 1350px;
+}
+.container {
+  /*ここいらない
+    width: 800ps;
+    margin: 0 auto;
+     */
+
+  width: 1350px;
+}
+.item1 {
+  width: 100%;
+  padding: 0%;
+  text-align: center;
+}
+.item1 img {
+  margin-top: 0px;
+  transform: rotate(90deg);
+  width: cover;
+  padding: 0px;
+}
+.item2 {
+  text-align: center;
+}
+.item2 h2 {
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  color: #333;
+}
+
+.content {
+  display: flex;
+}
+.content-item {
+  /* display: inline-block;*/
+  width: 30%;
+  text-align: center;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.content-item img {
+  width: 90%;
+  height: 70%;
+}
+
+.content-item p {
+  font-size: 15px;
+  font-weight: bold;
+}
+.content-item .explan {
+  margin-bottom: 20px;
+}
+
+.content-item a {
+  background-color: #79a1b1;
+  color: #fff;
+  padding: 10px 30px 10px 30px;
+}
+
+h3 {
+  font-size: 5px;
+}

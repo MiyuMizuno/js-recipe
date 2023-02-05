@@ -33,6 +33,7 @@ const webEX = {
 }
 //JSON形式に直して、保存する
 localStorage.webEX = JSON.stringify(webEX)
+localStorage.webEX = JSON.Stringify(変数名)
 
 localStorage.setItem(webEX, JSON.stringify(webEX))
 
@@ -46,4 +47,5 @@ localStorage.aisatu = "おはよう"
 
 localStorage.setItem("aisatus", "おはよう")
 localStorage.setItem("aisatus", "こんにちは")
+//おはよう→こんにちは”に変換
 localStorage.getItem("aisatus")

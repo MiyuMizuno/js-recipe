@@ -7,9 +7,10 @@
     "ms-vsliveshare.vsliveshare",
     "christian-kohler.npm-intellisense",
     "aaron-bond.better-comments",
-    "Vue.volar",
+    "vue.volar",
     "hollowtree.vue-snippets",
     "mhutchie.git-graph",
-    "github.vscode-pull-request-github"
+    "github.vscode-pull-request-github",
+    "mushan.vscode-paste-image"
   ]
 }

@@ -20,6 +20,9 @@ addButton.onclick = function () {
   const todo = document.createElement("div")
   todo.className = "todo"
   todo.textContent = text
+  //①
+  const deleteButton = document.createElement("div")
+  deleteButton.className = "deleteButton"
 
   //③
   card.append(todo)
@@ -29,12 +32,8 @@ addButton.onclick = function () {
 //inputField.textContent = ""
 
 //削除ボタンをクリックしたら
-//①HTMLで定義していないボタンを定義する
+//①HTMLで定義していないボタンを定義する => ボタンを作るタイミングはカードを表示する時
 //②”カードコンテナ”からカードを削除
-
-//①
-const deleteButton = document.createElement("div")
-deleteButton.className = "deleteButton"
 
 //②
 deleteButton.onclick = function () {

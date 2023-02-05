@@ -1,0 +1,117 @@
+/*ヘッダー(class="head_container")の子要素を両端に分ける*/
+.head_container {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+/*<h1>さくらんぼ農園</h1>の文字サイズ*/
+h1 {
+  font-size: 20px;
+}
+/*リストマーカーを消す*/
+header ul {
+  list-style-type: none;
+}
+
+/*リストを横並びに*/
+header ul li {
+  display: inline-block;
+}
+
+/*ヘッダーの背景画像を入れる*/
+header {
+  width: 100%;
+  height: 300px;
+  background: url(images/003.jpeg);
+  /*画面いっぱい表示*/
+  background-size: cover;
+  /*中心*/
+  background-position: center;
+}
+
+header h2 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 80px;
+}
+
+nav ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+nav ul li {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  border-left: 1px dotted black;
+}
+
+/*:last-child {
+  border-right: 1px dotted black;
+}*/
+
+.container {
+  width: 800px;
+  margin: 0px auto;
+  display: flex;
+}
+
+.item1 {
+  width: 70%;
+}
+
+.item1 h2 {
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 1px solid navy;
+}
+.item1 img {
+  width: 99%;
+}
+
+.item1 p {
+  font-size: 15px;
+}
+.item2 {
+  width: 22%;
+}
+.item2 h2 {
+  font-size: 15px;
+  text-align: center;
+}
+.item2 ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.item2 li {
+  border-bottom: 1px dotted black;
+}
+
+.article_container {
+  display: flex;
+}
+.article_item {
+  width: 47%;
+}
+.article_item img {
+  width: 99%;
+  height: 80%;
+}
+
+.article_item p {
+  text-align: center;
+}
+
+footer {
+  background-color: yellow;
+  width: 100%;
+  padding: 15px;
+  margin: 0px;
+}
+
+footer h2 {
+  text-align: center;
+  font-size: 5px;
+}
