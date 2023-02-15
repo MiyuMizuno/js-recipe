@@ -11,12 +11,13 @@
       <h2>Q. {{ quiz.text }}</h2>
       <img id="quiz-image" v-bind:src="quizImagePath" v-bind:alt="quiz.text" />
       <div class="container">
+        <!----->>
         <button
           v-for="(choice, i) in quiz.choices"
           v-bind:key="i"
           v-on:click="choiced(choice)"
         >
-          {{ choice.text }}
+          {{i}},{{ choice.text }}
         </button>
       </div>
       <div>{{ feedback }}</div>

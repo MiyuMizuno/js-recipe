@@ -1,4 +1,5 @@
-const Quiz({
+// const Quiz(
+Vue.createApp({
 
     data(){
         return{
@@ -24,7 +25,15 @@ const Quiz({
                         feedback: "正解！ガニメデは、木星の第三惑星だよ！",
                       },   
                 ],
-            }
+            },
+            fb:"",
+        }
+    },
+    methods:{
+        choiced(){
+            this.fb=quiz[].choice.feedback
+
         }
     }
-}).mount("#"Quiz)
+
+}).mount("#Quiz")
